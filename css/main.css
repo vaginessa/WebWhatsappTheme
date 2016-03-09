@@ -1,0 +1,235 @@
+*{
+	font-family: 'Open Sans', verdana;
+	color:#4d4d4d;
+}
+.bg-color{
+	background-color:  #d9d9d9 ;
+}
+header{
+	background: #0EA47C;
+	height: 6em;
+}
+.pd-1{
+	padding: .4%;
+}
+.bg-gray{
+	background-color: #d9d9d9;
+	height: 3.7em;
+	padding-top: .3%;
+}
+.imgtop{
+	height: 3em;
+	width: 3em;
+	border-radius: 10em;
+}
+.text-center{
+	text-align: left !important;
+}
+.floatl{
+	float: left;
+}
+
+.floatr{
+	float: right;
+}
+h5,p{
+	font-size: 80% !important;
+}
+.mg-t{
+	margin-top: .9%;
+}
+.uno{
+	height: 3.2em;
+	border-bottom: .03em solid #b3b3b3;
+	width: 103%;
+	margin-right: -1%;
+	margin-top: .5em;
+}
+section{
+	margin-top: -5.3%;
+}
+.brdr{
+	border:.03em solid #b3b3b3;
+}
+.txt{
+	font-size: 80% !important;
+	margin-left: -12%;
+	margin-top: -.2%;
+}
+.txt1{
+	margin-left: -3%;
+	margin-top: -.4%;
+}
+.icon{
+	float: right;
+}
+.icon2{
+	margin-top: 4%;
+	margin-left: 8%;
+}
+.icon1{
+	margin-top: 2%;
+}
+.pd-0{
+	padding: 0em;
+}
+.bg-white{
+	background-color: #fff;
+}
+.div1{
+	float: right;
+}
+.busqueda input{
+	width: 105%; /*tamaño del boton buscar al hacer click*/
+	padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+	background-color: transparent;
+	margin:1em !important;
+	margin-left: 0em !important;
+} 
+.busqueda input{
+	height: 2em;
+	background: transparent url("http://www.diset.com/sites/all/themes/twitter_bootstrap/img/icono-lupa-ficha.png") no-repeat 9px center;
+}
+.scroll{
+	overflow: scroll;
+	overflow-x:hidden;
+	height: 30em;
+}
+.fntsize{
+	font-size: 70% !important;
+}
+.ch{
+	font-size: 60% !important;
+}
+.bg-chat{
+	height: 30em;
+	opacity: 3.5;
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/WebWhatsappTheme/image/chat-panel-bg.png");
+}
+.brdr2{
+	border:.03em solid #b3b3b3;
+	border-radius: .5em;
+	background-color: white;
+	padding: .3%;
+	height: 3em;
+}
+.brdr3{
+	background-color: #d9ffb3;
+	height: 3em;
+}
+.pd-3{
+	padding-top: 1% !important;
+}
+.pd-2{
+	padding-left:2% !important;
+	padding-top: .3%;
+	padding-right: 5% !important;
+}
+.pt-3{
+	padding-top: .3%;
+}
+.conver{
+	border:;
+}
+.div-white{
+	background-color: white;
+	border-radius: .5em;
+}
+.bg-conver{
+	background-color: #f2f2f2;
+}
+.section1 span{
+	float: right;
+}
+.azul{
+	color:#00b8e6 !important;
+	font-weight: bolder;
+	font-size: 87% !important;
+}
+.rosa{
+	color: #ff1a75 !important;
+	font-weight: bolder;
+	font-size: 87% !important;
+}
+.verde{
+	color:#00b386!important;
+	font-weight: bolder;
+	font-size: 87% !important;
+}
+.amarillo{
+	color:#ffbb33!important;
+	font-weight: bolder;
+	font-size: 87% !important;
+}
+.iconbarra{
+	font-size: 2em;
+	opacity: .6;
+}
+.mgt-barra{
+	margin-top: .85%;
+}
+.mensaje{
+	width: 100%; /*tamaño del boton buscar al hacer click*/
+	background-color: white;
+	padding-left: .8em;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 1%;
+	padding-bottom: 2%;
+}
+nav li{
+	display: inline;
+	padding:4%;
+	padding-top: 2%
+}
+h3{
+	color: white !important;
+}
+li{
+	font-size: 70% !important;
+	color: white;
+}
+/*--------------------------*/
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+   header{
+   	height: 8em;
+   }
+   .bg-gray{
+   	height: 100%;
+   	padding:1%;
+   }
+   .txt{
+   	margin-left: 2%;
+   	margin-top: -1%;
+   }
+   .ch1{
+	font-size: 65% !important;
+	}
+	.ch2{
+	font-size: 55% !important;
+	}
+	.fntsize{
+	font-size: 52% !important;
+	}
+	.ch{
+	font-size: 60% !important;
+	}
+   input{
+   	width: 100%;
+   }
+   .iconbarra{
+	font-size: 2em;
+	opacity: .6;
+	}
+	.iconbarra{
+	font-size: 2em;
+	opacity: .6;
+	float: right !important;
+	}
+}
